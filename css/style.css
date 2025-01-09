@@ -1,0 +1,37 @@
+:root {
+    /* Fonts */
+    --primary-font: Inter, sans-serif;
+    /* Text color */
+    --main-text-color: #1D1D1F;
+    --sec-text-color: #838383;
+    --logo-text-color: #FFFFFF;
+
+}
+
+/* Body styles */
+
+body {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--main-text-color);
+
+   
+
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+/* Header styles */
+
+.logo {
+    background-color: var(--main-text-color);
+    color: var(--logo-text-color);
+}
+
