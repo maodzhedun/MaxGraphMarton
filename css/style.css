@@ -8,30 +8,98 @@
 
 }
 
-/* Body styles */
+/* Base styles */
 
 body {
     font-family: var(--primary-font);
     font-size: 16px;
     line-height: 1.5;
     color: var(--main-text-color);
+}
 
-   
+/* reset start */
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .link {
+    color: currentColor;
     text-decoration: none;
 }
 
 .list {
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    font-family: inherit;
+    color: currentColor;
+    cursor: pointer;
+}
+
+/* reset end */
+
+.section {
+   padding-top: 190px;
+   padding-bottom: 190px;
+}
+
+.container {
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 200px;
+    padding-right: 200px;
+
+    outline: 2px solid red;
+    outline-offset: -2px;
+}
+
+.btn {
+   min-width: 180px;
+   min-height: 60px;
+   padding: 20px 60px;
+
+   font-family: inherit;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+    color: var(--main-text-color);
+    background-color: var(--logo-text-color);
+    /* border: none; */
+
+}
+
+.btn-dark {
+    color: var(--logo-text-color);
+    background-color: var(--main-text-color);
 }
 
 /* Header styles */
 
 .logo {
-    background-color: var(--main-text-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.3;
+
     color: var(--logo-text-color);
+
+    background-color: var(--main-text-color);
 }
 
