@@ -55,8 +55,8 @@ button {
 /* reset end */
 
 .section {
-   padding-top: 190px;
-   padding-bottom: 190px;
+   /* padding-top: 190px;
+   padding-bottom: 190px; */
 }
 
 .container {
@@ -103,3 +103,38 @@ button {
     background-color: var(--main-text-color);
 }
 
+.hero  {
+    /* height: 900px; */
+    /* max-width: 1600px; */
+
+    background-image: url(../images/Cover/Cover.jpg);
+    background-color: var(--sec-text-color);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.hero-title {
+    margin-bottom: 30px;
+    padding-top: 260px;
+
+    width: 936px;
+    /* height: 232px; */
+
+    color: var(--logo-text-color);
+    font-weight: 600;
+    font-size: 96px;
+}
+
+.subtitle {
+    margin-bottom: 50px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--logo-text-color);
+}
+
+.btn-light {
+    margin-bottom: 212px;
+}
