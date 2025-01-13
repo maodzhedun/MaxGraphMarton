@@ -54,10 +54,6 @@ button {
 
 /* reset end */
 
-.section {
-   /* padding-top: 190px;
-   padding-bottom: 190px; */
-}
 
 .container {
     width: 1600px;
@@ -65,24 +61,24 @@ button {
     margin-right: auto;
     padding-left: 200px;
     padding-right: 200px;
-
+    
     outline: 2px solid red;
     outline-offset: -2px;
 }
 
 .btn {
-   min-width: 180px;
-   min-height: 60px;
-   padding: 20px 60px;
-
-   font-family: inherit;
+    min-width: 180px;
+    min-height: 60px;
+    padding: 20px 60px;
+    
+    font-family: inherit;
     font-weight: 600;
     font-size: 17px;
     text-align: center;
     color: var(--main-text-color);
     background-color: var(--logo-text-color);
     /* border: none; */
-
+    
 }
 
 .btn-dark {
@@ -109,13 +105,18 @@ button {
     color: var(--sec-text-color);
 }
 
-
+.script {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
 
 /* Header styles */
 
 .header {
     background-color: var(--main-text-color);
-
+    
 }
 
 .header-container {
@@ -134,41 +135,42 @@ button {
 .header-nav-list {
     display: flex;
     gap: 35px;
-
+    
 }
 
 .header-nav-link {
     padding-top: 10px;
     padding-bottom: 10px;
-
+    
     font-weight: 400;
     font-size: 16px;
     line-height: 1.21;
-
+    
     color: var(--logo-text-color);
 }
 
 .header-logo {
     margin-right: 606px;
-
+    
     /* font-family: inherit;
     font-weight: 500;
     font-size: 32px;
     line-height: 1.3; */
-
+    
     /* color: var(--logo-text-color); */
 }
 
 .nav-list {
     color: var(--logo-text-color);
-
+    
 }
 
+/* Hero style */
 
 .hero  {
     /* height: 900px; */
     /* max-width: 1600px; */
-
+    
     background-image: url(../images/Cover/Cover.jpg);
     background-color: var(--sec-text-color);
     background-repeat: no-repeat;
@@ -179,18 +181,18 @@ button {
 .hero-title {
     margin-bottom: 30px;
     padding-top: 260px;
-
+    
     width: 936px;
-   
+    
     color: var(--logo-text-color);
     font-weight: 600;
     font-size: 96px;
     line-height: 1.22;
 }
 
-.subtitle {
+.hero-subtitle {
     margin-bottom: 50px;
-
+    
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -201,6 +203,126 @@ button {
     margin-bottom: 212px;
 }
 
+/* About style */
+
+.about-section {
+   padding-top: 190px;
+   padding-bottom: 190px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-list  {
+    display: flex;
+    flex-direction: column;
+
+    gap: 60px;
+}
+
+.about-subtitle {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 1.4;
+}
+
+.about-num {
+    font-family: inherit;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 140%;
+}
+
+.about-script {
+    /* font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5; */
+    color: var(--sec-text-color)
+}
+
+.about-right-side {
+    display: flex;
+    flex-direction: column;
+    /* max-width: 570px; */
+    max-width: 561px;
+}
+
+.about-subtitle {
+    margin-bottom: 60px;
+}
+
+.about-script-one {
+    margin-bottom: 32px;
+}
+
+/* Videoplayer style */
+
+/* .videoplayer {
+    
+    background-size: 1200px 630px;
+    background-image: url(../images/player/Rectangle-4.jpg);
+    background-color: var(--sec-text-color);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+} */
+
+/* Offer style*/
+
+.offer-section {
+    padding-top: 190px;
+    padding-bottom: 190px;
+ }
+
+.offer-list {
+    display: flex;
+    gap: 60px;
+}
+
+.offer-subtitle {
+    margin-bottom: 20px;
+}
+
+.offer-script {
+    margin-bottom: 60px;
+}
+
+.offer-item {
+    width: 570px;
+}
+
+.offer-left-side {
+    margin-top: 89px;
+}
+
+.offer-left-side > .offer-item {
+    margin-bottom: 209px;
+}
+
+.offer-right-item {
+    margin-top: 209px;
+}
+
+.offer-item {
+    /* display: flex; */
+    /* padding-top: 89px;
+    padding-bottom: 89px; */
+}
+
+.offer-left-side {
+    /* display: flex; */
+    /* padding-top: 89px;
+    padding-bottom: 89px; */
+}
+
+/*.offer-rigt-side {
+    padding-top: 89px;
+    padding-bottom: 89px;
+} */
 
 /* Footer style */
 
