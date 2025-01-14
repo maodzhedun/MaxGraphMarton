@@ -261,15 +261,19 @@ button {
 
 /* Videoplayer style */
 
-/* .videoplayer {
-    
-    background-size: 1200px 630px;
+.videoplayer {
+    margin-left: auto;
+    margin-right: auto;
+
+    max-width: 1600px;
+    height: 630px;
+    /* background-size: 1200px 630px; */
     background-image: url(../images/player/Rectangle-4.jpg);
     background-color: var(--sec-text-color);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-} */
+}
 
 /* Offer style*/
 
@@ -323,6 +327,70 @@ button {
     padding-top: 89px;
     padding-bottom: 89px;
 } */
+
+
+/* Citation style */
+
+.citation-wrapp {
+    display: block;
+    width: 820px;
+}
+
+.citation-script {
+    margin-bottom: 50px;
+}
+
+.citation-subtitle {
+    margin-bottom: 30px;
+    padding-right: 40px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+.citation-major {
+    color: var(--sec-text-color);
+}
+
+/* Slider style */
+
+.slider-section {
+    height: 900px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-image: url(../images/Slayder/Rectangle-7.jpg);
+    background-color: var(--sec-text-color);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+/* Service style */
+.service-section {
+    padding-top: 190px;
+    padding-bottom: 190px;
+}
+
+.service-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.service-list-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.service-script {
+    width: 570px;
+    color: var(--sec-text-color);
+}
 
 /* Footer style */
 
