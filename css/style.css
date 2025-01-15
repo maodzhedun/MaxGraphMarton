@@ -128,6 +128,10 @@ button {
     margin-right: 35px;
 }
 
+.header-icon {
+    
+}
+
 .header-nav {
     margin-right: auto;
 }
@@ -269,7 +273,7 @@ button {
     height: 630px;
     /* background-size: 1200px 630px; */
     background-image: url(../images/player/Rectangle-4.jpg);
-    background-color: var(--sec-text-color);
+    background-color: ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -394,6 +398,49 @@ button {
 
 /* Footer style */
 
-.footer {
-    background-color: #838383;
+.footer-container {
+    padding-top: 90px;
+    padding-bottom: 126px;
+    background-color: var(--main-text-color);
+    display: flex;
+    gap: 70px;    
+}
+
+.footer-logo {
+    margin-bottom: 90px;
+}
+
+.footer-script {
+    margin-bottom: 30px;
+    color: var(--sec-text-color);
+}
+
+.footer-list {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-social {
+
+}
+
+.footer-mail {
+
+}
+
+.footer-subtitle {
+    margin-bottom: 30px;
+}
+
+.input-mail {
+    font-family: inherit;
+    font-weight:700;
+    font-size: 16px;
+    line-height: 1.58;
+
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--sec-text-color);
 }

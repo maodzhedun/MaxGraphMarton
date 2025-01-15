@@ -26,7 +26,10 @@
       <div class="header-container container">
         <p class="header-logo uppertitle uppertitle-light">Company</p>
         <a class="header-search" href="">
-          <img src="/images/Search.svg" alt="Search" width="24" />
+          <svg class="header-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-search"></use>
+          </svg>
+          <!-- <img src="/images/Search.svg" alt="Search" width="24" /> -->
         </a>
         <nav class="header-nav">
           <ul class="list header-nav-list">
@@ -101,16 +104,19 @@
       <!-- Videoplayer section -->
       <section class="section  videoplayer">
         <div class="container">
-          <h2>Videoplayer</h2>
-          <a href="">
+          <h2 hidden>Videoplayer</h2>
+          <svg class="videoplayer-icon" width="100" height="100">
+            <use href="./images/icons.svg#icon-play"></use>
+          </svg>
+          <!-- <a href=""> -->
             <!-- <img
               src="./images/player/Rectangle-4.jpg"
               alt="playback"
               width="1200"
               height="630"
             /> -->
-          </a>
-          <img src="./images/player/Play.svg" alt="playback" width="100" />
+          <!-- </a>
+          <img src="./images/player/Play.svg" alt="playback" width="100" /> -->
         </div>
       </section>
       <!-- Offers section -->
@@ -174,14 +180,20 @@
       <section class="section slider-section">
         <div class="container">
           <h2 hidden>Slider</h2>
+          <svg class="slider-icon" width="60" height="60">
+            <use href="./images/icons.svg#icon-arrow-l"></use>
+          </svg>
+            <svg class="slider-icon" width="60" height="60">
+            <use href="./images/icons.svg#icon-arrow-r"></use>
+          </svg>
           <!-- <img
             src="./images/Slayder/Rectangle-7.jpg"
             alt="Picture"
             width="1600"
             height="900"
           /> -->
-          <button class="btn" type="button"></button>
-          <button class="btn" type="button"></button>
+          <!-- <button class="btn" type="button"></button>
+          <button class="btn" type="button"></button> -->
         </div>
       </section>
       <!-- Services section -->
@@ -225,56 +237,75 @@
           </ul>
         </div>
       </section>
+
     </main>
     <!-- Footer section-->
     <footer class="footer">
-      <div class="container">
-        <p  class="uppertitle uppertitle-light">Company</p>
-        <p>Dorivit BV, Monitorweg 1, Almere 1322BJ, Netherlands</p>
-        <ul class="list">
-          <li>
-            <a
-              class="link"
-              href="https://www.facebook.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Facebook</a
-            >
-          </li>
-          <li>
-            <a
-              class="link"
-              href="https://web.telegram.org/k/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Telegram</a
-            >
-          </li>
-          <li>
-            <a
-              class="link"
-              href="https://www.youtube.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Youtube</a
-            >
-          </li>
-        </ul>
-        <img
+      <div class="container footer-container">
+        <div class="footer-social">
+          <p  class="uppertitle uppertitle-light footer-logo">Company</p>
+          <p class="script footer-script">Dorivit BV, Monitorweg 1, Almere 1322BJ, Netherlands</p>
+          <ul class="list footer-list">
+            <li class="social-link">
+              <a
+                class="link"
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook icon"
+                >
+                <svg class="social-icon" width="40" height="40">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+                </a>
+            </li>
+            <li class="social-link">
+              <a
+                class="link"
+                href="https://web.telegram.org/k/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Telegram icon"
+                >
+                <svg class="social-icon" width="40" height="40">
+                  <use href="./images/icons.svg#icon-telegram"></use>
+                </svg>
+                </a>
+            </li>
+            <li class="social-link">
+              <a
+                class="link"
+                href="https://www.youtube.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Youtube icon"
+                >
+                <svg class="social-icon" width="40" height="40">
+                  <use href="./images/icons.svg#icon-google"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- <img
           src="./images/footer/Rectangle-8.png"
           alt="body footer"
           width="1600"
           height="400"
-        />
-        <p class="uppertitle uppertitle-light">Id sodales interdum dui mollis non in odio</p>
-        <p>E-MAIL</p>
-        <img
-          src="./images/footer/Line-5.png"
-          alt="line"
-          width="570"
-          height="1"
-        />
-        <img src="./images/footer/Stroke-1.svg" alt="Button" width="24" />
+        /> -->
+        <div class="footer-mail">
+          <p class="uppertitle uppertitle-light footer-subtitle">Id sodales interdum dui mollis non in odio</p>
+          <p class="input-mail">E-MAIL</p>
+          <img
+            src="./images/footer/Line-5.png"
+            alt="line"
+            width="570"
+            height="1"
+          />
+         <svg class="footer-icon" width="24" height="24">
+           <use href="./images/icons.svg#icon-arrow"></use>
+         </svg>
+        </div>
       </div>
     </footer>
   </body>
