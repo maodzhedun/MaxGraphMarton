@@ -273,6 +273,7 @@ button {
 /* Videoplayer style */
 
 .videoplayer {
+    position: relative;
     margin-left: auto;
     margin-right: auto;
 
@@ -284,6 +285,17 @@ button {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+}
+
+.videoplayer-container {
+    width: 100%;
+    height: 100%;
+}
+
+.videoplayer-icon {
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
 }
 
 /* Offer style*/
@@ -342,6 +354,10 @@ button {
 
 /* Citation style */
 
+.citation-section {
+   padding-bottom: 190px; 
+}
+
 .citation-wrapp {
     display: block;
     width: 820px;
@@ -379,6 +395,24 @@ button {
     background-size: contain;
 }
 
+.slider-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.slider-icon-l {
+    position: absolute;
+    /* top: calc(50% - 570px); */
+    top: calc(50% - 30px);
+    left: 200px;
+}
+
+.slider-icon-r {
+    position: absolute;
+    top: calc(50%  - 30px);
+    left: 1430px;
+}
 
 /* Service style */
 .service-section {
