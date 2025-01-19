@@ -430,7 +430,20 @@ button {
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
+
+    border-top: 1px solid rgba(29, 29, 31, 0.4);
+
 }
+
+/* .service-list-item::before{
+    content: "";
+    display: block;
+    border: 1px solid var(--main-text-color);
+    width: 1200px;
+    height: 0px;
+
+    opacity: 0.4;
+} */
 
 .service-script {
     width: 570px;
@@ -444,11 +457,12 @@ button {
     padding-bottom: 126px;
     background-color: var(--main-text-color);
     display: flex;
+    justify-content: space-between;
     gap: 70px;    
 }
 
 .footer-logo {
-    margin-bottom: 90px;
+    margin-bottom: 70px;
 }
 
 .footer-script {
@@ -473,9 +487,11 @@ button {
 
 .footer-subtitle {
     margin-bottom: 30px;
+    width: 500px;
 }
 
 .input-mail {
+    min-width: 570px;
     font-family: inherit;
     font-weight:700;
     font-size: 16px;
@@ -484,4 +500,6 @@ button {
     letter-spacing: 0.08em;
     text-transform: uppercase;
     color: var(--sec-text-color);
+
+    border-bottom: 1px solid var(--sec-text-color);
 }
