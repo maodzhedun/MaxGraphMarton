@@ -123,7 +123,7 @@ button {
     padding-top: 40px;
     padding-bottom: 37px;
     
-    /* background-color: var(--main-text-color); */
+    background-color: rgba(131, 131, 131, 0.3);
 }
 
 .header-container {
@@ -131,12 +131,11 @@ button {
     align-items: center;
 }
 
-.header-search {
-    margin-right: 35px;
-}
+/* .header-search {
+} */
 
 .header-icon {
-    
+    margin-right: 35px;
 }
 
 .header-nav {
@@ -179,8 +178,8 @@ button {
 /* Hero style */
 
 .hero  {
-    /* height: 900px; */
-    /* max-width: 1600px; */
+    padding-top: 260px;
+    padding-bottom: 212px;
     
     background-image: url(../images/Cover/Cover.jpg);
     background-color: var(--sec-text-color);
@@ -191,7 +190,6 @@ button {
 
 .hero-title {
     margin-bottom: 30px;
-    padding-top: 260px;
     
     width: 936px;
     
@@ -211,7 +209,7 @@ button {
 }
 
 .btn-light {
-    margin-bottom: 212px;
+    border: none;
 }
 
 /* About style */
@@ -365,6 +363,8 @@ button {
 
 .citation-script {
     margin-bottom: 50px;
+
+    color: var(--sec-text-color);
 }
 
 .citation-subtitle {
@@ -424,12 +424,13 @@ button {
     display: flex;
     flex-direction: column;
     margin-top: 40px;
+    gap: 40px;
 }
 
 .service-list-item {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 
     border-top: 1px solid rgba(29, 29, 31, 0.4);
 
