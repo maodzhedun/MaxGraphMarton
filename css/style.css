@@ -62,8 +62,8 @@ button {
     padding-left: 200px;
     padding-right: 200px;
     
-    outline: 2px solid red;
-    outline-offset: -2px;
+    /* outline: 2px solid red; */
+    /* outline-offset: -2px; */
 }
 
 .btn {
@@ -256,7 +256,6 @@ button {
 .about-right-side {
     display: flex;
     flex-direction: column;
-    /* max-width: 570px; */
     max-width: 561px;
 }
 
@@ -277,7 +276,6 @@ button {
 
     max-width: 1600px;
     height: 630px;
-    /* background-size: 1200px 630px; */
     background-image: url(../images/player/Rectangle-4.jpg);
     background-color: ;
     background-repeat: no-repeat;
@@ -430,21 +428,10 @@ button {
 .service-list-item {
     display: flex;
     justify-content: space-between;
-    /* margin-bottom: 40px; */
 
     border-top: 1px solid rgba(29, 29, 31, 0.4);
 
 }
-
-/* .service-list-item::before{
-    content: "";
-    display: block;
-    border: 1px solid var(--main-text-color);
-    width: 1200px;
-    height: 0px;
-
-    opacity: 0.4;
-} */
 
 .service-script {
     width: 570px;
@@ -459,7 +446,6 @@ button {
     background-color: var(--main-text-color);
     display: flex;
     justify-content: space-between;
-    gap: 70px;    
 }
 
 .footer-logo {
@@ -473,7 +459,6 @@ button {
 
 .footer-list {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     gap: 20px;
 }
@@ -503,4 +488,47 @@ button {
     color: var(--sec-text-color);
 
     border-bottom: 1px solid var(--sec-text-color);
+}
+
+.form-email {
+    display: block;
+}
+
+.form-wrapp {
+    position: relative;
+
+}
+
+.form-input {
+    min-width: 570px;
+    height: 44px;
+    padding: 4px;
+
+    color: var(--sec-text-color);
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--sec-text-color);
+}
+ 
+.form-scribe {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: inherit;
+    font-weight:700;
+    font-size: 16px;
+    line-height: 1.58;
+
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--sec-text-color);
+
+    
+}
+
+.form-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
